@@ -13,7 +13,7 @@ def my_function(x):
 
 def main():
     a, b = 0, np.pi
-    num_samples = 100000
+    num_samples = 100000000
     
     # Tính giá trị chính xác bằng Scipy giải tích (để làm ground-truth so sánh)
     true_val, _ = quad(my_function, a, b)

@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.pi_estimator import PiEstimator
 
 def main():
-    num_samples = 100000
+    num_samples = 100000000
     estimator = PiEstimator(num_samples=num_samples)
     
     print("=== Thử nghiệm ước lượng số Pi ===")
